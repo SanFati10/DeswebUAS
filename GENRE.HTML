@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter by Genre</title>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="LAYANAN STREAMING.html"><img src="assets/logo lagi.png" alt="Facebook"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="LAYANAN STREAMING.html">Home</a></li>
+                <li><a href="SERIES.html">Series</a></li>
+                <li><a href="MOVIES.html">Movies</a></li>
+                <li><a href="GENRE.HTML">Genre</a></li>
+                
+                <li><a href="LAYANAN STREAMING.html"><img src="assets/icons8-male-user-24.png" alt="Facebook"></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="filter-buttons">
+        <button class="filter-button" data-filter="all">All</button>
+        <button class="filter-button" data-filter="action">Action</button>
+        <button class="filter-button" data-filter="comedy">Comedy</button>
+        <button class="filter-button" data-filter="horror">Horror</button>
+        <button class="filter-button" data-filter="romance">Romance</button>
+    </div>
+
+    <div class="image-container">
+        <div class="movie" data-genre="action">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABW7_hmuDoVBtvaQjfTgYhIM6IL0auRQr-0vsQgyjaqGBaxv8Ifq0N-49wu5c7-dkb6rGTOi7veBoZrw_NmEwxC-C58Bva0jZCW--blMMZO30j0O0xVpEsizofgvKl28PkKmV.jpg?r=13b" alt="Movie 2">
+                    <div class="overlay">
+                        <h3>Vagabond</h3>
+                        <p>Series | 2019 | 16+</p>
+                    </div>
+        </div>
+        <div class="movie" data-genre="action">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXUubsGslLtoymerVhtd1Iq_4Xt7cSKQLGkFhifG2Y-iPvOPX9JkgKwgC3PKwEKCx9EWSfJPup5ad1uIOm7GlGlWxKdG4OKzoUSg5Fdu5BVH6-_dJwGWUF9YS2I_uQwhjOaA.jpg?r=5a6" alt="">
+            <div class="overlay">
+                    <h3>Avatar : The Last Airbender (live action)</h3>
+                    <p>Series | 2024 | 16+</p>
+            </div>
+        </div>  
+        <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVxzR_A6Syv5s26qGEDH-QdQ3bxXGj0ACHC8kdA_9xMjY9tZy78Wu28JAZeMCbM_YX3l9uY185grXFRfwHnoJcqMCerlAaJWKxE.webp?r=fb2" alt="">
+            <div class="overlay">
+                    <h3>Assassin Creed </h3>
+                    <p>Movie | 2016 | 18+</p>
+            </div>
+        </div> 
+        <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYMbUwGtTS-Z2ljHN_4tL_yK-IDs6NyjGzlzTbFVVVMkc2IatV7eJFxYVsUhQGnQ1iReDptnimq-4LiCF1IGXn0FwMSOYQK5FmY.webp?r=af6" alt="">
+            <div class="overlay">
+                    <h3>One piece</h3>
+                    <p>Series | 1999 | 13+</p>
+            </div>
+        </div>
+        <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfp44U7G-_cMwU5QalopPjs3mGxjjt1AE3PqdwAlzykBENP-dZByW_paEk1GKF-2UsmM6oo0QLW_Ncl1XxMtoFD-UNTYW6lDAXY.webp?r=697" alt="">
+            <div class="overlay">
+                    <h3>The Conjuring 2</h3>
+                    <p>Movies | 2016 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABV8ABMVVvGAM4JH7X7xVqhlY1yL4xmQYzDIfApxxGbZkXBtx9MCy5uf5RsIichO15x5XG3PIGxgLbj1av8NO-h7pFelDoDRgciI.webp?r=efc" alt="">
+             <div class="overlay">
+                    <h3>IT</h3>
+                    <p>Movies | 2017 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABU6gC7bAcB_EFKbk-X7fznWqV_tuwN3CdlqIBAyX-H3M3SMaxXGsC_UakzrHfZ5yB8XA35PK3S8Lhr_emct5DsFuHJUJiCNk2fygV5q4EHF3QTrl3pToUmReodpIOnd_RtkB.jpg?r=02a" alt="">
+              <div class="overlay">
+                    <h3>Bird Box</h3>
+                    <p>Movies | 2018 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRIWpxJQYDWv_nh6xitLGGw2SMy2h3VJS2sccfrGWvKl8jwT1AQNBa1HjJJJ0Dk8Xt4OfZCPb8Vn-Lg-bHQl34opYwOjRUz2Hdk.webp?r=03c" alt="">
+           <div class="overlay">
+                    <h3>Dancing Village : The Curse Begin</h3>
+                    <p>Movies | 2024 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVHUvj-X1_x0DsX4vruGttQESwthEqnpSDJpWsPAIDYOH40XAIQwEjriqTvKT5epJze2k8WWQH4wUHfzoHiZQ23AeZQiSLDwGwI.webp?r=a71" alt="">
+            <div class="overlay">
+                    <h3>Pamali : Corspe Village</h3>
+                    <p>Movies | 2024 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRVMEdq2HP_Ru2_amLoKdAGQPsDRp6XMh6TF_62Jf3szqbi-hpUUWiHxEUq5_UjtugX3wDuhCg87vbw6HiuOngMW5_nRnnO2nmc.webp?r=834" alt="">
+           <div class="overlay">
+                    <h3>Goedam</h3>
+                    <p>Series | 2020 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABd2_lk0OE7xlu1P7S_28HHQsWt8V251saDbU6OUJBGHUPGyYoEDSC1IL02h1j1Lqqx0FuItn2jsKtxTOvnlb5MnfSvDUv415wZbCKww9Vv9j-utMd93ER47JDZo_2J7jUhU7pqhm5Wmu4A1W4oBPqV7IqeyuwS6Rwqqeh3DE0PCQRWfGljmWWrLS1loC7fvxWSuktcKhnI6DPJZ26oAct2oCERyGKxe17h367luinkQQCYiddoTuvCZAD9wBETCmgsJIhNPmvwmVgp4f9ZKVgerFnA.webp?r=4f1" alt="">
+            <div class="overlay">
+                    <h3>A Quiet Place</h3>
+                    <p>Movies | 2018 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZpAxHE0J0sCUEPNkU4tRJu6Xcqq-_SY5XmOCZryfFqyx59NgZpiPCr_jrOXVyKjZHX3gaol8SmJmajQudbMmFKAO1vn0ZlVL9BCnsO2PgLT4bn-iwM-o1qC9ZCT0U_6TYLa.jpg?r=e7e" alt="">
+            <div class="overlay">
+                    <h3>Hellbound</h3>
+                    <p>Series | 2024 | 17+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUsQfOJwhhOPuGd6ukimH-5zHjpTvcMsVp-Khwn2QM0mQcTQ_SXAZCvyc47gn2xlR5Z4u_kJ7USkoqbSKnyblel1J-hPf9JTUik.webp?r=20d" alt="">
+            <div class="overlay">
+                    <h3>Tale Of The Nine Tailed</h3>
+                    <p>Series | 2020 | 16+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.PXlqoWkgeBGgKYuFzEnaPAHaEK&pid=Api&P=0&h=180" alt="">
+            <div class="overlay">
+                    <h3>Revenant</h3>
+                    <p>Series | 2023 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="horror">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABR7s70B7_nrJvG3gfR9TskGBnRxztAUBZRZoJB0Z8Z3pQsiOR0Imb0Zc6-0N4HyX3IuoIMi8im2yicdX_7Dr_mm_92xSrNPHaWyw34m90y4bFyd4erloU457daN-ozEf2y6a.jpg?r=407" alt="">
+            <div class="overlay">
+                <h3>Kingdom</h3>
+                    <p>Series | 2022 | 17+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVB6OSxolb2ntOPckiJ0nPoH3umiZ6DZZE8yrLe_sdd_BgD5BvLwH_7rLez4j2hcoPEiwtEwqlNGg13B5vRV2I_RF5nl-6vMMHThW6Am6RlKLFbOOD6QEL7SBx89seydaFlf.jpg?r=9b7" alt="Movie 1">
+                <div class="overlay">
+                    <h3>Doctor Slump</h3>
+                    <p>Series | 2024 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABSqyWtW8eelGbrToC814-NBQPuYfij6Fkm4j4zh613N_HTJMeSVYXp9i3r7C-oog3Ixe04CLcBQblBG4zR158S7zK_T8mvUZ2-M.webp?r=d51" alt="Movie 2">
+            <div class="overlay">
+                    <h3>True Beauty</h3>
+                    <p>Series | 2020 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABc3J4rGpauEDF95ZxzCpIWXY2lxhbuXxl1JMqH7v2Eojnx0u9jzau4m1culJ1H-Qv6BcT5A4DeOVMTB0lOqJo2UeoLKUYZt9USM.webp?r=c18" alt="Movie 2">
+            <div class="overlay">
+                    <h3>Lovely Runner</h3>
+                    <p>Series | 2024 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdw3hGzrf94df3M2xyDtbaeHjmjl36MXe1LSuqGiPvbunYd1fpukTAWtgz2v7TQg_IZJEr7PsQeb2bN37pLXu8th0yfuNnKOLcY.webp?r=82f" alt="Movie 2">
+            <div class="overlay">
+                    <h3>What's Wrong With Secretary Kim</h3>
+                    <p>Series | 2018 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABT4P-4UY_yPNukixeq2jHrSKVIz4XAv1IioqenNEg76ZMUXNYZ7LmVd9oDeZ8Syy8btXWIo70T1Krzn_fktGNWNTtxleMrOIoshsQAqX8BNfgRJYGEzTC0pwPSCzgtK7zW-Q.jpg?r=644" alt="Movie 2">
+            <div class="overlay">
+                    <h3>Love Next Door</h3>
+                    <p>Series | 2024 | 13+</p>
+                </div>
+            </div> <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXLL5wE0pEflw0twfmukG3_v-rVUm612HImEnfbl-BvzCwlQYay-Cy4AHsyKOPJwiSnPjBkXtfpWqKB3KxfItbQrboAM7VRXLdo.webp?r=a44" alt="Movie 2">
+            <div class="overlay">
+                    <h3>Backstreet Rookie</h3>
+                    <p>Series | 2019 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZAzObYNbqFEbLuNKbP0wkomaTs9DuOEK9XClY8ASFAijkJuQQMt3X9pOUMJ4ajpFV5Vmuf89SJTARQ8hrWeXgoHl7yJLIsI7vE.webp?r=fce" alt="Movie 2">
+            <div class="overlay">
+                    <h3>My ID Is Gangnam Beauty</h3>
+                    <p>Series | 2018 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABS6x050dXFSKsNTgEZfa5fbHRqAVY53Hxh5YY2xMZE--cNI7tyKb4OUeestAq-j-FqiZuF-BnSyKLbDzLG-sj7mice-anLOahsI.webp?r=b38" alt="Movie 2">
+            <div class="overlay">
+                    <h3>Descendant Of The SUn</h3>
+                    <p>Series | 2016 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABakOLzrcyhnpBoBIrWPVidqVLzpj1X5P_bVkAJS_uwayhnp29BWzblZYDDOUdQGfXNY6jrX_xxo95WtS_cE74zP9zxuWepHg0Xo.webp?r=8d0" alt="Movie 2">
+            <div class="overlay">
+                    <h3>Amidst a Snowstorm Of Love</h3>
+                    <p>Movie | 2023 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="romance">
+            <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbpCpYtcHi_8ISeHAj-uBSoPkA11YLCYHzmQwvUgCCfDxTTJqxYZKcKIcxD9Yq7ZUOD7Js4hq-rwnwPg2X15-PT69kEqsVMl-MA.webp?r=6b3" alt="Movie 3">
+            <div class="overlay">
+                    <h3>Love Between Fairy and Evil</h3>
+                    <p>Series | 2023 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbiq9cEcKyIZ_euonV5z58pBz2amn8E9h1VIz3INfNwyNCDaWb7_pQpy4kHkwA3CP-epUMozytyT2ZMCRfB8c3TpchHfJvHcLcFMByt7qDRZrCrbbH-ZaKQ9P3OcMWIKjLLU.jpg?r=f3e" alt="Movie 2">
+                <div class="overlay">
+                        <h3>Stranger Things </h3>
+                        <p>Series | 2016 | 17+</p>
+                    </div>
+            </div>
+            <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABU0QJNcwOyXptJq9PhE85vc0BPsZeiDnv0a_D-nF2eBeJshF4VLleFCfPC1fH2hZ9vBj8g1Hg8gb2AwjJp1wEnwkQ5G3ZhR_XG0UnnHr3Y1pUW1QPAyolueypHHs1mk1DPAoj5_qyoT570c4exkVKUqfcWv3jzSOIck6gcO4XyJciVw_bQmAOPDsWSPlyzmAChSx3UEWimJU4vW9OZk5Eey19WHILv76nCJu2gBBG2XcSNvysrVsUWXR-KbhieRpZ1nbl6LS32CZHBfkl_3e59oaWkT9MWIJl9RmKJssJ-Zy0Hq951nHWfERyj7ICpSvDgGO699RJepH0fELpsvGgbJ7sBmNv-MHeJASN9XGMfCeQOMSr_L1VOkFQogQiAKBehHr-si0becbaTD-FTNtudOfbc4vBUz9oeU_XG1KAPZZArt85BOSG6TxLmwSj9WiwG4uO9Np0PaNczxjdyp5y9ib9RCE4Y4ODKIzDS2gbvQVMKIyR-aNq0kZein5wKgz.jpg?r=942" alt="Movie 3">
+                <div class="overlay">
+                        <h3>When The Phone Rings</h3>
+                        <p>Series | 2024 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTp7OZol7wVPWOPd-X8NEzz0n4uE7zxkqFW8v6wakOqOamfmE1KcZHQe4hDCuuCKLHdpYM-K8FnAiWBQlmgiQ-vmTEb8nvTBdYg.webp?r=f3f" alt="Movie 3">
+                <div class="overlay">
+                        <h3>The 100</h3>
+                        <p>Series | 2020 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABauQH2jkttOBD7XULeJ2CfgSy9nEYAg4ITpUiyROn2xilIsuNM9zPRCYWLH1PWTlT15GOnHejUEIC0iOnaI8phvr7R9Qst2f1ztVxUzfHV-jq0mGnuefNTtDn1U9HbPJJ66V.jpg?r=f61" alt="Movie 3">
+                <div class="overlay">
+                        <h3>Sweet Home</h3>
+                        <p>Series | 2020 | 18+</p>
+                 </div>
+            </div>
+            <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABemBqlYb5gprohVxzETvjA1568SpP0by38PUCtvzyqda9bSoNSvgTQ-KQmPzZ2PJ0LDlXvynJwPIE15xg1Az8AUpll4J6O7Sctc.webp?r=632" alt="Movie 3">
+                <div class="overlay">
+                        <h3>Solo Leveling</h3>
+                        <p>Series | 2024 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVxRMQUBBfQ_N-VHbfJaV5TJ_1SD3JP1NA-_gLxUcbu5ZxlEts64PY9eAJ2wIhuGsY2RurwnJympY9GH9RW58veV6WGC6FsRO9I.webp?r=474" alt="Movie 3">
+                <div class="overlay">
+                        <h3>Kaiju No. 8</h3>
+                        <p>Series | 2024 | 13+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="comedy">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABf6s0ibXEcovnAljTz3jpjxT7OF014CMo2FpXS48y-WCqHH_YjQi3BfR3QucuR2eI43PwlKsjCjE5VcSCBAV2VvXQKC9wqta17Jg_5jLueN798fPnYHEjGFEsFVqpXeFkmNM.jpg?r=05e" alt="Movie 3">
+                <div class="overlay">
+                    <h3>Emily in Paris</h3>
+                    <p>Series | 2022 | 18+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="comedy">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABW-cxfJ90elGLBeN6O2ayWo5xyFeFGEPkuEYk5ogHyMrvuEjLxL6MRX3J2nuK4PhWLjtPtGtb6xhg4jpEUJauocGkfGGrBpuNP0.webp?r=d4a" alt="Movie 2">
+                <div class="overlay">
+                    <h3>Spy X Family</h3>
+                    <p>Series | 2023 | 16+</p>
+                </div>
+            </div>
+            <div class="movie" data-genre="comedy">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYif4Pmw16EPhHPvv9e4KRIDnLmTuma28mWbP40es7hRiTwiWxJ9cGrY-8zrCoFXdz4yRUFmnpbm2SszXsqOHzi6jK-5utp62OiyLHKEB7K964p7MQemCUgt1OgX9erCVczt.jpg?r=6c0" alt="Movie 2">
+                    <div class="overlay">
+                        <h3>Man VS Bee</h3>
+                        <p>Movies | 2023 | 16+</p>
+                    </div>
+                </div>
+            <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdUgYG1XZ3HBHl1yz6PGekXxQ-3fc97hG9mmt2V6PwnQ0s6zu3oQL1K1YtDm_nTaRtVWHf2WJ0zMZDJx07iegsQLyzUno7ug4FU.webp?r=b45" alt="Movie 2">
+                        <div class="overlay">
+                                <h3>Agak Laen</h3>
+                                <p>Movies | 2024 | 16+</p>
+                            </div>
+            </div>
+            <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVANKXA_Jbxk_9NbEGoRbe-ivqXmSLF3BjGMEgvm6o0YCrgs39ZL2U1TN_2RxNQFHNSTCqL8WgR__88LovO2kbDv_qFIycQVszA.webp?r=b42" alt="Movie 2">
+                         <div class="overlay">
+                                <h3>Shaun The Seep</h3>
+                                <p>Series | 2016 | 10+</p>
+                            </div>
+            </div>
+                        <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZlR7-be-Y0rVyQdoTewz5CmKlT8xngPecVdpaaTig6ityUhFLycju_u5B4essegqY6eah2bBmOTh3pdNUTfXp6kRjsqA1uGqvhpoppQQpQ5GPJ8deRDUt6OxBbGHZt0BkNwYpTciNOzVCB_A70xhz18p3QpgERmHyI.webp?r=b4c" alt="Movie 2">
+                          <div class="overlay">
+                                <h3>Pay Later</h3>
+                                <p>Series | 2016 | 10+</p>
+                            </div>
+                        </div>
+                        <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQoaTZIbj4Y6sv8sjAw_uXBqTNPTWkfKPHLEEBMX5Kn3or755VgWCeOtjF0Tm2yQygnBc0vcIpJ5JFGCi6z_LmsVAdmhzxnvbdU.webp?r=261" alt="Movie 2">
+                         <div class="overlay">
+                                <h3>My Stupid Boss</h3>
+                                <p>Movies | 2016 | 17+</p>
+                            </div>
+                        </div>
+                        <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdBZzQuCQIlPO5xR9Awi7Pm6cBw4KDmYP_omyBxPnh7ej5YsRKVdSm598ISu4OmZM2uhnOXTXESZ1BNBhbCMBB8M-ozpne_YzA8.webp?r=db8" alt="Movie 2">
+                        <div class="overlay">
+                                <h3>Jomblo</h3>
+                                <p>Movies | 2017 | 16+</p>
+                            </div>
+                        </div>
+                        <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABf4R1ar6huntmcTQGIvShVpLjk2nNjOrLfnsNRQoDC_9eIgoY5JZ6uEXv9XX308brf_R08z37sMM8feGv9sIrpX3g2fyfpW1oJI.webp?r=1a9" alt="Movie 2">
+                        <div class="overlay">
+                                <h3>Pasutri Gaje</h3>
+                                <p>Movies | 2024 | 16+</p>
+                            </div>
+                        </div>
+                        <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXWgfdAJGt-Im-sRB9-jKZeg6nf6xj1TVHOLeda30nGPR8EmRX9heYAHdT_BiiKsmntw6QoZHYOnCYAQ5-tdf72aN4lWtqMBmzY.webp?r=8a0" alt="Movie 2">
+                        <div class="overlay">
+                                <h3>Warkop DKI Reborn</h3>
+                                <p>Series | 2018 | 16+</p>
+                        </div>
+                </div>
+                <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQ6WvycEgT2qW10DpU5y54rmEwf4gbWHtJBbqSR2uAYV4M4H0I19SgmFYJzvKDiTh9APvpLao-J8zmfjfU61TM7Szptpne8pAqE.webp?r=bcd" alt="Movie 2">
+                        <div class="overlay">
+                                <h3>Welcome To Waikiki</h3>
+                                <p>Series | 2020 | 13+</p>
+                        </div>
+                </div>
+                <div class="movie" data-genre="comedy">
+                        <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcoOf3FB2-Guvn8srx7kRKngRGldT6J0vMI5gySHT9Up_d3_pKbiApEfHDnf_WUtrlzqIjW6sCaXK2o0AMR5LNL9SJ-cleT0HcU.webp?r=8ab" alt="Movie 2">
+                    <div class="overlay">
+                            <h3>Mr. Queen</h3>
+                            <p>Movies | 2017 | 16+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfCLnDg27klDZHUIUIJveSWb7y7HygwwfCKnNc0yit4I5anh0qFK2zO1Ms74lAe3z6qtYsS5Ovu_XQxRiEJmkddI6NpD75pTWEU.webp?r=5f9" alt="">
+                <div class="overlay">
+                        <h3>Demon Slayer</h3>
+                        <p>Series | 2020 | 16+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABauNd3TCNobi-Ol0cul8X4Lt9I504H3fVaHeMjI8TNkkjORjQ0ovBNKOJOotDmH6wb0SWRtQmEfz_y6Xa37vIjtwnqMqW2bYjdY.webp?r=33c" alt="">
+                 <div class="overlay">
+                        <h3>Jujutsu Kaisen</h3>
+                        <p>Series | 2023 | 16+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABddPfuTF4o6YbKa_Jcd0ZEhXo62WgrCHtD6qxgY_2OWCJgOsamYLJj_arLkvOn5N7h60Y_zXHKmCD1mE_8ZmN1Vymv3-fKf8dlA.webp?r=888" alt="">
+                  <div class="overlay">
+                        <h3>Chainsawman</h3>
+                        <p>Series | 2023 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="comedy">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTzn9VBvknnjCdyV8C18QZ9zlargpxIXmIvNVVr07-oB4IpXC-ilkInFcxV_boC8XpHrIhPzb2me6XLvQsVWgBHcn89xrGEcDxc.webp?r=ab5" alt="">
+               <div class="overlay">
+                        <h3>Assasination Classroom</h3>
+                        <p>Series | 2016 | 16+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABf7bQER8cng_NtNvbro59cKuwPPaPwG1Or3rzh2shVkdFdxwIdNXP7HoGDQNDSNNrbJRylCx45NipKiHZEGWc4dzygMpSxzxpuc.webp?r=235" alt="">
+                <div class="overlay">
+                        <h3>Parasyte : The Maxim</h3>
+                        <p>Series | 2014 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVxRMQUBBfQ_N-VHbfJaV5TJ_1SD3JP1NA-_gLxUcbu5ZxlEts64PY9eAJ2wIhuGsY2RurwnJympY9GH9RW58veV6WGC6FsRO9I.webp?r=474" alt="">
+               <div class="overlay">
+                        <h3>Kaiju No.8</h3>
+                        <p>Series | 2024 | 16+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQKgyeLoLF7QvkqnafeWRGDoec8tqB0zMdeXPkMHdcoOLowwKjLjzw6uudvMvvP0CGwEt5vceSDCt9Vga77VV6SvFeaUhQYwVwE.webp?r=413" alt="">
+                <div class="overlay">
+                        <h3>Tokyo Ghoul</h3>
+                        <p>Series | 2018 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRuvVo_iIJE9c23wxfH0UB5wN0pKKAj2Ii3PpDq5ljlKpavqknZoWVWiyw-d2uyqG4BInA1Pp3b5PpwJ9hcMYf1fM0SgZvCJTeY.webp?r=8b5" alt="">
+                <div class="overlay">
+                        <h3>Attack On Titan</h3>
+                        <p>Series | 2016 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQ8cWe3OouknH-8vX3LAYEQ_GZCIO11WpkqacwYg9OFW4qzpehjXOGVVBy8mKWM0HdRLBtiAOYOugudFyl1WhOnCReM8Pg8kBno.webp?r=a91" alt="">
+                <div class="overlay">
+                        <h3>Zom 100 : Bucket List Of The Year</h3>
+                        <p>Series | 2024 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUpPsIgPIuDe50qn0ljizZawnn9ZeSjEwMFWC2RZiB3sxQKGBTyIwNYgm-vXRlHTIHMzG7PO9nllo5v6v9ODhtSqV-QtQdDFVwNKghfY8xnzQ_ul_1CPdh7R5Nmz-_q4m7JV.jpg?r=063" alt="">
+                <div class="overlay">
+                        <h3>Jojo Bizzare Adventure</h3>
+                        <p>Series | 2021 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="comedy">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYkyy0ZDnYEJNKbFDEfQiRKaJ9ylA0Qr2ysRMswe4Qp2TKmqYW6RLoTOfxxSmiCJQrKBMgiQWu6sL8D_Cw1KckdqfyqyKj6UcjFCKCeRELPXGRhMPC1DvewXhHVkq4dzWVVK.jpg?r=ad9" alt="">
+                <div class="overlay">
+                        <h3>Start Up</h3>
+                        <p>Series | 2020 | 13+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="romance">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbu_eLlqi2fVU7eeDH3XswRMJBGG_usA8mPg3yj52ZiW7Ou0IcHL765TbXOEBYLH-8GCpuap-vQSWWaXfOy5V7QkrqVsdyzL0KA6vPwLAnAUPfIksvWYl5DLWhjc3XEqcE9G.jpg?r=61c" alt="">
+                <div class="overlay">
+                        <h3>Itaewon Class</h3>
+                        <p>Series | 2019 | 13+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABW7_hmuDoVBtvaQjfTgYhIM6IL0auRQr-0vsQgyjaqGBaxv8Ifq0N-49wu5c7-dkb6rGTOi7veBoZrw_NmEwxC-C58Bva0jZCW--blMMZO30j0O0xVpEsizofgvKl28PkKmV.jpg?r=13b" alt="">
+                <div class="overlay">
+                        <h3>Vagabond</h3>
+                        <p>Series | 2019 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="comedy">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABT-W8eFx8pIf43y_jMoUaoTQkWRo_9N2JlYAZT4jwR2dZjuWMepqkLx2fyzWU89pgFqjyo3q7cQ-PH3ufe2msyHHmZjqgM5JZsfi5K_FbqpKg8tPwLGRX6iyDOOBayXlSSGe.jpg?r=040" alt="">
+                <div class="overlay">
+                        <h3>Vincenzo</h3>
+                        <p>Series | 2021 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdgzd-qDTW-wijUOhdYDJVupaoznG9aqG5NV1aE7qtTlvwOUiHaAVy5JExMyeptWZd9ZQ1EW6sLaa4uMLMH6270bL2fIulDrHtj-ifuMoxskoNOkG1rdrafW03aF_OBp3AKu.jpg?r=3ec" alt="">
+                <div class="overlay">
+                        <h3>BloodHound</h3>
+                        <p>Series | 2023 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="horror">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABW6FZ-q5HTy6a2iAKKuOsVkaZ-NemNR9jV0qcICqa_Et06R3Qpu-rBWyshWAzDoloRipD2w9EdF0hEiRRh4NIa5hd4X0Nsaq1rQ.webp?r=97b" alt="">
+                <div class="overlay">
+                        <h3>Taxi Driver</h3>
+                        <p>Series | 2020 | 18+</p>
+                    </div>
+                </div>
+                <div class="movie" data-genre="action">
+                <img src="https://occ-0-7244-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVa1MpFYw75Ack0hYKnPA1CxqV2EI7rJBst2WF8CYEWOMJNLKO8T1mIZ4Cho8CXCIjMejqyDJP-yklsOLmZ6oprdnDMPQDUt8ak.webp?r=9de" alt="">
+                <div class="overlay">
+                        <h3>The Fiery Priest</h3>
+                        <p>Series | 2019 | 16+</p>
+                    </div>
+                </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/NetflixAsia"><img src="assets/icons8-facebook-32.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/netflix/"><img src="assets/icons8-instagram-undefined-32.png" alt="Instagram"></a>
+            <a href="https://x.com/netflix"><img src="assets/icons8-twitterx-16.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/@Netflix"><img src="assets/icons8-youtube-32.png" alt="YouTube"></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">Audio Description</a>
+          <a href="#">Help Center</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Jobs</a>
+          <a href="#">Legal Notices</a>
+          <a href="#">Gift Cards</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Corporate Information</a>
+          <a href="#">Media Center</a>
+          <a href="#">Privacy</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-bottom">
+          <a href="#" style="color: #aaa; text-decoration: none;">Service Code</a>
+          <br>© 2024 I-Station, Inc.
+        </div>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
